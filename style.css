@@ -1,0 +1,23 @@
+h1,
+body {
+  text-align: center;
+}
+body {
+  background-color: lightcyan;
+}
+
+button {
+  background-color: olivedrab;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+#info {
+  margin-top: 5rem;
+}
+
+.card-title {
+  font-size: x-large;
+  background-color: lavender;
+}
