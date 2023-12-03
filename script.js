@@ -2,6 +2,12 @@ const username = document.getElementById("userName");
 const getdetails = document.getElementById("getDetails");
 const profileDetails = document.getElementById("info");
 
+const promise1 = new Promise((resolve,reject)=>{
+    resolve(success());
+    reject("Error Fetching Data");
+})
+
+function success(){
 //Using async fn to fetch details
 getdetails.addEventListener("click", async () => {
   const uname = username.value;
@@ -33,3 +39,5 @@ function getProfileDetails(data) {
        </div>
        `;
 }
+}
+
